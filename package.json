@@ -1,0 +1,19 @@
+{
+	"name": "json-to-excel",
+	"version": "1.0.0",
+	"description": "Export JSON to Excel",
+	"main": "index.js",
+	"bin": {
+		"jx": "./index.js"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Emanuel Miroiu",
+	"license": "MIT",
+	"dependencies": {
+		"clipboardy": "^2.3.0",
+		"json2xls": "^0.1.2",
+		"yargs": "^16.2.0"
+	}
+}

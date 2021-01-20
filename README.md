@@ -11,12 +11,12 @@ Create a test.json file:
 ```js
 [
 	{
-		Id: 0,
-		Name: 'Test 1',
+		"Id": 0,
+		"Name": "Test 1",
 	},
 	{
-		Id: 1,
-		Name: 'Test 2',
+		"Id": 1,
+		"Name": "Test 2",
 	},
 ];
 ```
@@ -45,6 +45,8 @@ jx file1 file2 file3
 ```
 
 ### Working with the clipboard
+
+Copy the contents of test.json and run the following command:
 
 ```cmd
 jx c outputFileName

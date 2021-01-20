@@ -1,5 +1,5 @@
 {
-	"name": "json-to-excel",
+	"name": "@miroiu/json-to-excel",
 	"version": "1.0.0",
 	"description": "Export JSON to Excel",
 	"main": "index.js",
@@ -8,6 +8,9 @@
 	},
 	"scripts": {
 		"start": "node index.js"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"author": "Emanuel Miroiu",
 	"license": "MIT",

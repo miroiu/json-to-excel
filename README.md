@@ -3,7 +3,7 @@
 ## Quick start:
 
 ```cmd
-npm install -g @miroiu/jx
+npm install -g @miroiu/json-to-excel
 ```
 
 Create a test.json file:

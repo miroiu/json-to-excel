@@ -3,10 +3,10 @@
 ## Quick start:
 
 ```cmd
-npm install
+npm install -g @miroiu/jx
 ```
 
-Create a test.json file inside the folder with the package.json:
+Create a test.json file:
 
 ```js
 [
@@ -24,7 +24,7 @@ Create a test.json file inside the folder with the package.json:
 Run:
 
 ```cmd
-npm start test.json
+jx test.json
 ```
 
 You should see a test.xlsx file near the test.json file.
@@ -32,21 +32,8 @@ You should see a test.xlsx file near the test.json file.
 ### Show helpful information
 
 ```cmd
-node . --help
-```
-
-## Using the CLI
-
-Inside the folder with the package.json run the following command:
-
-```cmd
-npm install -g .
-```
-
-or run the next command
-
-```cmd
-npm install -g @miroiu/jx
+jx --help
+jx c --help
 ```
 
 ### Working with files

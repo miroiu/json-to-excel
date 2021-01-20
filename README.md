@@ -12,13 +12,13 @@ Create a test.json file:
 [
 	{
 		"Id": 0,
-		"Name": "Test 1",
+		"Name": "Test 1"
 	},
 	{
 		"Id": 1,
-		"Name": "Test 2",
-	},
-];
+		"Name": "Test 2"
+	}
+]
 ```
 
 Run:

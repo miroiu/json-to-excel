@@ -1,7 +1,15 @@
 {
 	"name": "@miroiu/json-to-excel",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Export JSON to Excel",
+	"homepage": "https://github.com/miroiu/json-to-excel",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/miroiu/json-to-excel"
+	},
+	"engines": {
+		"node": ">=10.0.0"
+	},
 	"main": "index.js",
 	"bin": {
 		"jx": "./index.js"

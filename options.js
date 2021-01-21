@@ -28,7 +28,6 @@ const getOptions = () => {
 						default: 'clipboard',
 					})
 					.example('$0 c file', 'Output to file.xlsx')
-					.example('$0 c -o file', 'Output to file.xlsx')
 		)
 		.example('$0 file.json', 'Creates file.xlsx from file.json contents')
 		.example('$0 c output', 'Creates output.xlsx from clipboard contents')
